@@ -176,3 +176,7 @@ class Board:
 
         for piece in self.pieces:
             self.board[piece.pos] = piece
+
+
+test = Board()
+print(test.board)
